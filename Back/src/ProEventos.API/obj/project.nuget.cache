@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oBp+ia+RfS/vMc7+NXleImLM7lWY8JAt/RvyZm94mSVpaFb2TRDn8Rn8sDzVAFWAPeSiswtrEBnXmu78jgia8g==",
+  "dgSpecHash": "IhOMabI/6EyUxLiuKYKI/KtYlxUCzMO0kYBizDNm8w/LuwfpV8LMBBnOySjrhTfYtZPwygpkzBKS0nb+KuQAQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+  "projectFilePath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suxop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\suxop\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
