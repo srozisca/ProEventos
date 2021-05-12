@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "c:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\suxop\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -24,6 +24,7 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
