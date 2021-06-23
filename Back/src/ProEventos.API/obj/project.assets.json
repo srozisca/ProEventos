@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Humanizer.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -505,6 +505,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.5",
           "ProEventos.Domain": "1.0.0"
         },
         "compile": {
@@ -1352,11 +1354,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+      "projectUniqueName": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
       "projectName": "ProEventos.API",
-      "projectPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+      "projectPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
       "packagesPath": "C:\\Users\\suxop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\back\\src\\ProEventos.API\\obj\\",
+      "outputPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1376,8 +1378,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
-              "projectPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
+            "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
+              "projectPath": "C:\\Users\\suxop\\source\\repos\\srozisca\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
             }
           }
         }
