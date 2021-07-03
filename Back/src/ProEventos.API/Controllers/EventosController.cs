@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using ProEventos.Persistence;
+using ProEventos.Persistence.Contextos;
 using ProEventos.Domain;
 
 namespace ProEventos.API.Controllers
