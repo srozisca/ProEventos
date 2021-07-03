@@ -78,21 +78,57 @@ namespace ProEventos.API.Controllers
         }
 
         [HttpPost]
-        public string Post()
+        public async Task<IActionResult> Post(Evento model)
         {
-            return "exemplo de post";
+            try
+            {
+                var evento = await _eventoService.AddEventos(model);
+                if (evento == null)
+                    return (BadRequest("Erro ao tentar adicionar evento."));
+
+                return (Ok(evento));
+
+            }
+            catch (Exception ex)
+            {
+                return (this.StatusCode(StatusCodes.Status500InternalServerError,
+                    $"Erro ao tentar adicionar eventos. Erro: {ex.Message}"));
+            }
         }
 
         [HttpPut("{id}")]
-        public string Put(int id)
+        public async Task<IActionResult> Put(int id, Evento model)
         {
-            return $"exemplo de put id = {id}";
+            try
+            {
+                var evento = await _eventoService.UpdateEvento(id, model);
+                if (evento == null)
+                    return (BadRequest("Erro ao tentar adicionar evento."));
+
+                return (Ok(evento));
+
+            }
+            catch (Exception ex)
+            {
+                return (this.StatusCode(StatusCodes.Status500InternalServerError,
+                    $"Erro ao tentar atualizar eventos. Erro: {ex.Message}"));
+            }
         }
 
         [HttpDelete("{id}")]
-        public string Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            return $"exemplo de delete id = {id}";
+            try
+            {
+                return (await _eventoService.DeleteEvento(id) ?
+                    Ok("Evento deletado.") :
+                    BadRequest("Evento não deletado."));
+            }
+            catch (Exception ex)
+            {
+                return (this.StatusCode(StatusCodes.Status500InternalServerError,
+                    $"Erro ao tentar deletar eventos. Erro: {ex.Message}"));
+            }
         }
     }
 }
